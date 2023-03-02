@@ -13,17 +13,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/profile.php#login')
 
 WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/profile.php#login')
 
 WebUI.setText(findTestObject('Login_TC01/txt_username'), 'John Doe')
 
 WebUI.setText(findTestObject('Login_TC01/txt_password'), 'ThisIsNotAPassword')
 
 WebUI.click(findTestObject('Login_TC01/btn_login'))
+
+WebUI.waitForPageLoad(30)
 
 WebUI.verifyTextPresent('Book Appointment', false)
 

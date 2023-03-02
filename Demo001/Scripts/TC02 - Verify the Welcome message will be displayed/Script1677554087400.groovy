@@ -13,19 +13,20 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://the-internet.herokuapp.com/login')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://the-internet.herokuapp.com/login')
+WebUI.setText(findTestObject('Login_TC02/txt_username2'), 'tomsmith')
 
-WebUI.setText(findTestObject('Login_TC02/txt_username'), 'tomsmith')
+WebUI.setText(findTestObject('Login_TC02/txt_password2'), 'SuperSecretPassword!')
 
-WebUI.setText(findTestObject('Login_TC02/txt_password'), 'SuperSecretPassword!')
+WebUI.click(findTestObject('Login_TC02/btn_login2'))
 
-WebUI.click(findTestObject('Login_TC02/btn_Login'))
+WebUI.waitForPageLoad(30)
 
 WebUI.verifyTextPresent('Welcome to the Secure Area. When you are done click logout below', false)
+
 
 WebUI.closeBrowser()
 

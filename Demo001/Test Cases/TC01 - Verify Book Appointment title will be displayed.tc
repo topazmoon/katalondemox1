@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01 - Verify Book Appointment title will be dispplayed</name>
+   <name>TC01 - Verify Book Appointment title will be displayed</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a305627f-bafd-413a-98c4-0117fce9c3b7</testCaseGuid>

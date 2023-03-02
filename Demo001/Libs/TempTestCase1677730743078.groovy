@@ -14,9 +14,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\DUYNGU~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\TC01 - Verify Book Appointment title will be dispplayed\\20230302_102525\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\DUYNGU~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\TC01 - Verify Book Appointment title will be displayed\\20230302_111903\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/TC01 - Verify Book Appointment title will be dispplayed', new TestCaseBinding('Test Cases/TC01 - Verify Book Appointment title will be dispplayed',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/TC01 - Verify Book Appointment title will be displayed', new TestCaseBinding('Test Cases/TC01 - Verify Book Appointment title will be displayed',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
