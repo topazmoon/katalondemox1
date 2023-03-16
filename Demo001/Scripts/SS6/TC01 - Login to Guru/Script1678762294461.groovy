@@ -9,6 +9,12 @@ WebUI.openBrowser(_url)
 //Click ‘here’ link at the bottom
 WebUI.click(findTestObject('SS6/TC01/lbtn_here'))
 
+//Close ad modal
+WebUI.waitForPageLoad(_intTimeout)
+WebUI.switchToFrame(findTestObject('SS6/TC01/frame_google'), _intTimeout)
+WebUI.click(findTestObject('SS6/TC01/btn_closeAdModal'))
+WebUI.switchToDefaultContent()
+
 //Input Email ID
 WebUI.setText(findTestObject('SS6/TC01/txt_newemail'), 'dntestss6@aperiatest.org')
 
@@ -36,5 +42,7 @@ WebUI.click(findTestObject('SS6/TC01/btn_login'))
 WebUI.waitForPageLoad(_intTimeout)
 String strMessage = 'Welcome To Manager\'s Page of Guru99 Bank'
 WebUI.verifyElementText(findTestObject('SS6/TC01/lb_message'), strMessage)
+
+WebUI.closeBrowser()
 
 

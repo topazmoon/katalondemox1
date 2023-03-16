@@ -25,4 +25,5 @@ String convertColor = supporter.convertRGBAToHex(color).toUpperCase()
 String validcolor = '#0055CC';
 WebUI.verifyEqual(convertColor, validcolor)
 
+WebUI.closeBrowser()
 

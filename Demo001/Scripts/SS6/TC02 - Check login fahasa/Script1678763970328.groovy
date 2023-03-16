@@ -26,5 +26,5 @@ WebUI.click(findTestObject('SS6/TC02/btn_dangnhap'))
 String text = 'Số điện thoại/Email hoặc Mật khẩu sai!'
 WebUI.verifyElementText(findTestObject('SS6/TC02/lb_message'), text)
 
-
+WebUI.closeBrowser()
 
