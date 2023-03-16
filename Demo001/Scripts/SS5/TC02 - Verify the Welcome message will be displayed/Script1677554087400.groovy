@@ -7,13 +7,13 @@ WebUI.openBrowser('https://the-internet.herokuapp.com/login')
 WebUI.maximizeWindow()
 
 //Input username
-WebUI.setText(findTestObject('Login_TC02/txt_username2'), 'tomsmith')
+WebUI.setText(findTestObject('SS5/Login_TC02/txt_username2'), 'tomsmith')
 
 //Input Password
-WebUI.setText(findTestObject('Login_TC02/txt_password2'), 'SuperSecretPassword!')
+WebUI.setText(findTestObject('SS5/Login_TC02/txt_password2'), 'SuperSecretPassword!')
 
 //Login
-WebUI.click(findTestObject('Login_TC02/btn_login2'))
+WebUI.click(findTestObject('SS5/Login_TC02/btn_login2'))
 
 WebUI.waitForPageLoad(30)
 

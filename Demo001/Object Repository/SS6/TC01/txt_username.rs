@@ -3,24 +3,17 @@
    <description></description>
    <name>txt_username</name>
    <tag></tag>
-   <elementGuidId>dbee7ef2-12cb-47e9-b703-45a69ff168f1</elementGuidId>
+   <elementGuidId>79227d07-d0ab-4c91-8817-38031d55e03b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'txt-username']</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id = 'txt-username']</value>
+         <value>//input[@name='uid']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>txt-username</value>
-   </webElementProperties>
 </WebElementEntity>

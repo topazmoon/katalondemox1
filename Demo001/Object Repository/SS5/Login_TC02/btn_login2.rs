@@ -6,12 +6,12 @@
    <elementGuidId>82f36a5e-f755-4f94-a28d-b2210ccc5358</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'radius']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@class = 'radius']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'radius']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

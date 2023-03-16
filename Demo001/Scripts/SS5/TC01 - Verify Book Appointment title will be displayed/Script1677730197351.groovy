@@ -8,13 +8,13 @@ WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/profile.php#login')
 WebUI.maximizeWindow()
 
 //Input username
-WebUI.setText(findTestObject('Login_TC01/txt_username'), 'John Doe')
+WebUI.setText(findTestObject('SS5/Login_TC01/txt_username'), 'John Doe')
 
 //Input Password
-WebUI.setText(findTestObject('Login_TC01/txt_password'), 'ThisIsNotAPassword')
+WebUI.setText(findTestObject('SS5/Login_TC01/txt_password'), 'ThisIsNotAPassword')
 
 //Login
-WebUI.click(findTestObject('Login_TC01/btn_login'))
+WebUI.click(findTestObject('SS5/Login_TC01/btn_login'))
 
 WebUI.waitForPageLoad(30)
 

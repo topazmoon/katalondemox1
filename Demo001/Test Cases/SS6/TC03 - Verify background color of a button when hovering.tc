@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03 - Verify background color of a button when hovering</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>51a6c402-b7e4-4854-b177-0ad545c1728f</testCaseGuid>
+</TestCaseEntity>
