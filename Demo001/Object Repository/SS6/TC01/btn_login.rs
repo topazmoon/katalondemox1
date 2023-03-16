@@ -3,24 +3,17 @@
    <description></description>
    <name>btn_login</name>
    <tag></tag>
-   <elementGuidId>9ba3008e-4f2e-4863-9ce0-ac9db5c6716f</elementGuidId>
+   <elementGuidId>7fce1257-e7fd-4a9f-8348-0f6754995245</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'btn-login']</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id = 'btn-login']</value>
+         <value>//input[@name='btnLogin']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>btn-login</value>
-   </webElementProperties>
 </WebElementEntity>
