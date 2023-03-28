@@ -28,4 +28,19 @@ public class supporter {
 		String result = String.format("#%02x%02x%02x", hexValue1, hexValue2, hexValue3)
 		return result
 	}
+	
+	@Keyword
+	public static Set<Integer> listRandomNumber(int min, int max, int intNeeded){
+		if(intNeeded > (max-min+1)){
+			intNeeded = max-min+1;
+		}
+		Random rnd = new Random();
+		Set<Integer> lstNum = new LinkedHashSet<Integer>();
+		while (lstNum.size() < intNeeded)
+		{
+			Integer next = rnd.nextInt((max - min) + 1) + min;
+			lstNum.add(next);
+		}
+		return lstNum;
+	}
 }

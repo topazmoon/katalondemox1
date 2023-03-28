@@ -11,3 +11,13 @@ def static "utilities.supporter.convertRGBAToHex"(
     (new utilities.supporter()).convertRGBAToHex(
         	backgroundColor)
 }
+
+def static "utilities.supporter.listRandomNumber"(
+    	int min	
+     , 	int max	
+     , 	int intNeeded	) {
+    (new utilities.supporter()).listRandomNumber(
+        	min
+         , 	max
+         , 	intNeeded)
+}
